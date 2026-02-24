@@ -1,0 +1,11 @@
+/*   */ package net.minecraft.world.level.material;
+/*   */ 
+/*   */ public enum FogType {
+/* 4 */   LAVA, WATER, POWDER_SNOW, ATMOSPHERIC, NONE;
+/*   */ }
+
+
+/* Location:              /home/carlos/.minecraft/versions/1.21.11_unobfuscated/1.21.11_unobfuscated.jar!/net/minecraft/world/level/material/FogType.class
+ * Java compiler version: 21 (65.0)
+ * JD-Core Version:       1.2.3
+ */

@@ -1,0 +1,19 @@
+/*   */ package net.minecraft.world.level.block;
+/*   */ import com.mojang.serialization.MapCodec;
+/*   */ import net.minecraft.world.level.block.state.BlockBehaviour;
+/*   */ 
+/*   */ public abstract class MultifaceSpreadeableBlock extends MultifaceBlock {
+/*   */   public MultifaceSpreadeableBlock(BlockBehaviour.Properties properties) {
+/* 7 */     super(properties);
+/*   */   }
+/*   */   
+/*   */   public abstract MapCodec<? extends MultifaceSpreadeableBlock> codec();
+/*   */   
+/*   */   public abstract MultifaceSpreader getSpreader();
+/*   */ }
+
+
+/* Location:              /home/carlos/.minecraft/versions/1.21.11_unobfuscated/1.21.11_unobfuscated.jar!/net/minecraft/world/level/block/MultifaceSpreadeableBlock.class
+ * Java compiler version: 21 (65.0)
+ * JD-Core Version:       1.2.3
+ */

@@ -1,0 +1,14 @@
+/*   */ package net.minecraft.client.renderer.entity.state;
+/*   */ 
+/*   */ import net.minecraft.world.phys.Vec3;
+/*   */ 
+/*   */ public class IllusionerRenderState extends IllagerRenderState {
+/* 6 */   public Vec3[] illusionOffsets = new Vec3[0];
+/*   */   public boolean isCastingSpell;
+/*   */ }
+
+
+/* Location:              /home/carlos/.minecraft/versions/1.21.11_unobfuscated/1.21.11_unobfuscated.jar!/net/minecraft/client/renderer/entity/state/IllusionerRenderState.class
+ * Java compiler version: 21 (65.0)
+ * JD-Core Version:       1.2.3
+ */
